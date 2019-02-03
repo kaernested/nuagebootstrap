@@ -1,0 +1,34 @@
+//footer///////////////////////
+
+footer{
+    bottom: 0;
+    margin-top: -150px;
+    position: relative;
+    @extend %font-weight;
+
+   
+}
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p{
+        margin-bottom: 0;
+        color: #b9b9b9;
+
+    }
+}
+
+footer .fa-cloud{
+    font-size: 30px;
+    color: #b9b9b9;
+
+}

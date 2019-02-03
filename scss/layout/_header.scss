@@ -1,0 +1,53 @@
+//header////////////////////////
+header{
+    margin-top: 90px;
+    position: relative;
+    @extend %font-weight;
+}
+a{
+    color: #b9b9b9;
+    text-decoration: none;
+}
+.navbar{
+    margin: 0 auto;
+    width: 70%;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.login-btn{
+    font-size: 18px;
+    @extend %font-weight;
+    color: #b9b9b9;
+
+    &:hover{
+        color: black;
+
+    }
+}
+.start-btn{
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    color: black;
+    border-radius: 50px;
+    border: 1px solid rgb(231, 231, 231);
+
+    &:hover{
+        border: 1px solid  black;
+        transition: .3s;
+    }
+}
+header .fa-cloud{
+    font-size: 30px;
+    color: #33afff;
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid black;
+
+}

@@ -1,0 +1,178 @@
+main {
+  position: relative;
+  height: 2400px;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.container h3 {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.top {
+  margin-bottom: 200px;
+}
+
+.column {
+  height: 500px;
+  width: 100%;
+}
+
+.bottom {
+  margin-top: 150px;
+  height: 300px;
+}
+
+.middle {
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.middle .card {
+  height: 550px;
+  width: 400px;
+  border-radius: 90px;
+  box-shadow: 0 38px 43px rgba(0, 0, 0, 0.09);
+}
+.middle .card h1, .middle .card h3, .middle .card p {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.middle .card:nth-child(3) {
+  top: 250px;
+  right: 100px;
+}
+.middle .card:nth-child(2) {
+  top: 550px;
+  right: 200px;
+}
+.middle .card:nth-child(1) {
+  bottom: 150px;
+  left: 200px;
+}
+
+.card-body p {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.card1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card3 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-outline-dark {
+  border-radius: 50px;
+}
+
+.btn-primary {
+  border-radius: 50px;
+  margin-top: 50px;
+  width: 210px;
+  background-color: #33afff;
+  border: none;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#teal {
+  color: #65c3ad;
+}
+
+#coral {
+  color: #ea9078;
+}
+
+#gold {
+  color: #e8c060;
+}
+
+.card-animation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100vw;
+  color: black;
+}
+.card-animation.active span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+span {
+  display: inline-block;
+  transform: translateY(50rem);
+  opacity: 0;
+  transition: opacity 0.1s ease, transform 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  opacity: 1;
+  font-size: 300px;
+  cursor: default;
+}
+span:nth-child(1) {
+  transition-delay: 0s;
+  color: #e8c060;
+}
+span:nth-child(2) {
+  transition-delay: 0.2s;
+  color: #ea9078;
+}
+span:nth-child(3) {
+  transition-delay: 0.4s;
+  color: #65c3ad;
+}
+span:nth-child(4) {
+  transition-delay: 0.6s;
+  color: #65c3ad;
+}
+span:nth-child(5) {
+  transition-delay: 0.8s;
+  color: #dc6b6b;
+}
+span:nth-child(6) {
+  transition-delay: 0.1s;
+  color: #ea9078;
+}
+
+/*# sourceMappingURL=main.css.map */
